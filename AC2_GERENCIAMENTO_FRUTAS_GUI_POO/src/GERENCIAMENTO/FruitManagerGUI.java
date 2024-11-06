@@ -12,7 +12,7 @@ public class FruitManagerGUI { // classe principal do projeto
     private JList<String> list; // cria componentes para exibir na interface
 
     public FruitManagerGUI() {
-    	// inicializando frutas, listaModel e list
+    	// inicializando frutas, listModel e list
         frutas = new ArrayList<>(); 
         listModel = new DefaultListModel<>();
         list = new JList<>(listModel);
